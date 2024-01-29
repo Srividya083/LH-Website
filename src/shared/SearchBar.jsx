@@ -9,10 +9,10 @@ const SearchBar = () => {
     <div className="search__bar">
         <Form className="d-flex align-items-center gap-4">
            <FormGroup className='d-flex gap-3 form__group form__group-fast'>
-               <span><i class="ri-map-pin-line"></i></span>
+               <span><i class="ri-calendar-schedule-fill"></i></span>
                <div>
-                   <h6>Hostel</h6>
-                   <input type="text" placeholder="location of the places"/>
+                   <h6>Date</h6>
+                   <input type="date" placeholder="yyyy-mm-dd" />
                </div>
            </FormGroup>
         
