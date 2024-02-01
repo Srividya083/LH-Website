@@ -1,0 +1,41 @@
+.service-card {
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .service-image {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  /* Custom styles for the slick carousel arrows */
+  .slick-prev,
+  .slick-next {
+    font-size: 24px;
+    color: #000;
+    z-index: 1;
+  }
+  
+  .slick-prev {
+    left: 10px;
+  }
+  
+  .slick-next {
+    right: 10px;
+  }
+  

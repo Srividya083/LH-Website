@@ -1,7 +1,7 @@
 import React from 'react'; 
 import {Container,Row,Button} from 'reactstrap'
-import {Link} from 'react-router-dom'
-import logo from '../../assets/images/logo.png'
+import {Link,NavLink} from 'react-router-dom'
+import logo from '../../assets/images/lhsc.png'
 
 const navLinks=[
     {
@@ -24,6 +24,17 @@ const Header=()=>{
                 <div className="nav_wrapper d-flex align-items-center justify-content-between">
                     <div className="logo">
                         <img src={logo.png} alt=""/>
+                        </div>
+                    <div className="navigation">
+                        <ul className="menu d-flex align-items-center gap-5">
+                            {
+                                navLinks.map((item,index)=>(
+                                    <li className="nav_item" key={index}>
+                                        <NavLink to={item.path}>{item.display}</NavLink>
+                                    </li>
+                                ))
+                            }
+                            </ul>
                         </div>
                     </div>
             </Row>

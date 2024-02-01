@@ -1,6 +1,6 @@
 import React from 'react'
-import EventCard from '../ ../shared/EventCard'
-import eventData from '../ ../assets/data/events'
+import EventCard from '../../shared/EventCard'
+import eventData from '../../assets/data/events'
 import { Col } from 'reactstrap'
 
 const EventList = () => {

@@ -6,15 +6,15 @@ import "./serviceCard";
 //import swimming from ./assets/
 //import tableTennis from ./assets/
 
-const =[
+const servicesData =[
   {
-    imgUrl: gym,
-    title :Gymnassium,
+    imageUrl: 'gym',
+    title : 'Gymnassium',
     description: "WORKOUT, DONT CRY",
   },
   {
-    imgUrl: gym,
-    title :"Gymnassium",
+    imageUrl: 'gym',
+    title :'Gymnassium',
     description: "WORKOUT, DONT CRY",
   },
 ]
